@@ -12,16 +12,6 @@
 </style>
 
 <script>
-  require('./a.vue');
-  require('./group/indicator.vue');
-  require('./group/list.vue');
-  require('./group/input.vue');
-  require('./group/scroller.vue');
-  require('./module/navigator.vue');
-  require('./module/stream.vue');
-  const navigator = require('@weex-module/navigator');
-//  const storage = require('@weex-module/storage');
-
   export default {
     data: {
       logoUrl: 'https://alibaba.github.io/weex/img/weex_logo_blue@3x.png',
